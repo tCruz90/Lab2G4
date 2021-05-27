@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'ecommerceG4'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_30f1f63631144a9da4a28d9014fc84f1 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_f8710c10d56449cca38372adf4a5c3c3 }}
