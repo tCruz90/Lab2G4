@@ -20,7 +20,7 @@ jobs:
     - name: Set up Python version
       uses: actions/setup-python@v1
       with:
-        python-version: '3.7'
+        python-version: '3.8'
 
     - name: Create and start virtual environment
       run: |
@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'ecommerceSPD'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_49d31e66504949959c285672ec6074d5 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_0b43cee341664d59867459b108fd0ab0 }}
